@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relational Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="alert alert-info" role="alert" style="text-align: center;">
+    <div class="alert alert-primary">
+        <h2 style="text-decoration: underline;" style="text-decoration: darkgreen;">Relational Calculator</h2>
+    </div>
+<div class="alert alert-danger">
+    <h4 id="output"></h4>
+</div>
+<br>
+<br>
+<br>
+
+<div class="alert alert-warning">
+    <input type="text" name="num1" id="num1">
+    <input type="text" name="num2" id="num2">
+
+</div>
+<br>
+<br>
+<br>
+<div>
+    <button class="btn btn-dark" style="border-color: rgb(131, 45, 127); border-style: solid; border-width: thick;" onclick="equalto()"> = = </button>
+    <button class="btn btn-dark" style="border-color: rgb(131, 45, 127); border-style: solid; border-width: thick;" onclick="notequal()"> ! = </button>
+    <button class="btn btn-dark" style="border-color: rgb(131, 45, 127); border-style: solid; border-width: thick;" onclick="greater()"> > </button>
+    <button class="btn btn-dark" style="border-color: rgb(131, 45, 127); border-style: solid; border-width: thick;"onclick="less()"> < </button>
+    <button  class="btn btn-dark" style="border-color: rgb(131, 45, 127); border-style: solid; border-width: thick;"onclick="greaterequal()"> > = </button>
+    <button  class="btn btn-dark" style="border-color: rgb(131, 45, 127); border-style: solid; border-width: thick;"onclick="lessequal()"> < = </button>
+</div>
+    <script src="relationalCalc.js"></script>
+</body>
+</html>
